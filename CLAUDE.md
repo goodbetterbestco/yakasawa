@@ -4,29 +4,25 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Purpose
 
-This is a documentation reference library for **Yaskawa YRC1000micro** industrial robot controllers. It contains PDF manuals, technical specifications, and instructional guides — no source code or build system.
+This is a documentation reference library for **Yaskawa YRC1000micro** industrial robot controllers. It contains 88 PDF manuals — no source code or build system.
 
 ## Structure
 
-All documents live in `docs/`. There are three categories:
+- `README.md` — repo overview and category summary
+- `INDEX.md` — full categorized listing of all documents with descriptions and page counts
+- `docs/` — all 88 PDF manuals with descriptive filenames
 
-### Core Manuals
-- **OPERATOR'S MANUAL** — primary operational reference
-- **INSTRUCTIONS** — detailed setup and usage instructions
-- **MAINTENANCE MANUAL** — service and maintenance procedures
-- **ALARM CODES (MAJOR ALARMS)** — error/alarm code reference
-- **SETUP PROCEDURE MANUAL** — initial system setup
+## Document Categories
 
-### Feature/Option Documentation (prefixed "YRC1000micro OPTIONS")
-- **INFORM Language** — robot programming language reference
-- **MotoPlus** — Programmer's Manual and User's Manual for the MotoPlus development environment
-- **Communication protocols** — CC-Link, DeviceNet, EtherNet/IP, Ethernet, TCP
-- **Control functions** — Independent/Coordinated Control, Concurrent I/O, Group Change, Arm Interference Check
-- **Operational features** — Endless Function, 4-Point Teaching, I/O Output Timing Control, Password Protection, PMT, Online Manual
-- **Standard I/O Signal Assignment Table**
-- **UPGRADE PROCEDURE MANUAL**
-
-### Supplementary Guides
-- `FOR *.pdf` files — specific feature guides (Interface Panel, Pendant Oscilloscope, Relative Job, Search Function)
-- `PALLETSOLVER PC SETUP AND OPERATION MANUAL.pdf` — PalletSolver tool documentation
-- Numbered PDFs (e.g., `181290-1CD.pdf`) — Yaskawa technical reference documents identified by document number
+1. **Core Manuals** — operator's manual, instructions, maintenance, alarm codes, setup, upgrade
+2. **Manipulator Documentation** — GP7/GP8 robot arm (food-grade variants)
+3. **Quick Start & Read First** — welcome packet, safety requirements, wiring references
+4. **Programming Language & Development** — INFORM language, MotoPlus API and SDK
+5. **Smart Pendant** — instructions and INFORM supplement
+6. **Communication Protocols** — Ethernet, EtherNet/IP, DeviceNet, CC-Link, PROFINET, PROFIBUS, Modbus TCP, EtherCAT
+7. **Vision Systems** — MotoSight 2D and 3D
+8. **Motion Control & Advanced Functions** — macros, ladder editor, conveyor sync, search, servo float, etc.
+9. **Multi-Robot & Coordination** — independent/coordinated control, group change, arm interference
+10. **Pendant Customization** — custom screens and APIs (C#, C++)
+11. **I/O & Safety** — signal assignment, concurrent I/O, functional safety
+12. **Software Tools** — YASKAWA Cockpit, MotoFit, MOTOMAN-Craft, PalletSolver, PalletBuilder, MLX300
